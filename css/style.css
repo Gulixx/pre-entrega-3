@@ -1,0 +1,180 @@
+nav {
+  background-color: #333;
+}
+nav .nav__logo {
+  height: 70px;
+}
+
+@media only screen and (min-width: 768px) {
+  * {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .title_page {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+  }
+  .section {
+    justify-content: center;
+    align-items: center;
+  }
+  .section__container {
+    display: flex;
+  }
+  .section_card {
+    width: 350px;
+    height: 500px;
+    margin: 60px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    border-radius: 30px;
+  }
+  .section_card:hover {
+    cursor: pointer;
+  }
+  .section_img {
+    width: 350px;
+    height: 500px;
+    border-radius: 30px;
+  }
+  .section__intro {
+    border-radius: 28px;
+    bottom: -140.5px;
+    height: 200px;
+    width: 331.5px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #333;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  .section__intro:hover {
+    opacity: 1;
+  }
+  .section__tablet {
+    cursor: default;
+    display: none;
+  }
+}
+p {
+  font-size: 10px;
+}
+
+#carouselExampleControls {
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100vw;
+  background-image: url(/img/beautiful-eye-anime-art-hd-wallpaper-uhdpaper.com-133@0@f.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 991px) {
+  .section__container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    float: left;
+  }
+  .section_img {
+    border-radius: 30px 0px 0px 30px;
+  }
+  .section_card {
+    display: flex;
+    margin-left: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: visible;
+  }
+  .section__intro {
+    border-radius: 0px 30px 30px 0px;
+    height: 500px;
+    margin: 0 300px 300px 350px;
+    bottom: auto;
+    width: 450px;
+    opacity: 1;
+    float: auto;
+    background-color: #333;
+    cursor: default;
+  }
+  .section p {
+    font-size: 20px;
+  }
+  .section__tablet {
+    opacity: 1;
+    font-size: 20PX;
+    display: contents;
+  }
+}
+p {
+  font-size: medium;
+}
+
+@media only screen and (max-width: 767px) {
+  nav {
+    width: 100%;
+  }
+  .section {
+    display: flex;
+  }
+  .section__container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  .section_img {
+    border-radius: 30px 0px 0px 30px;
+    height: 300px;
+  }
+  .section_card {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 10px;
+    box-shadow: none;
+  }
+  .section__intro {
+    color: white;
+    box-shadow: none;
+    border-radius: 0px 30px 30px 0px;
+    margin: 0;
+    height: 300px;
+    background-color: #333;
+    cursor: default;
+    opacity: 1;
+  }
+  .section p {
+    font-size: 25px;
+  }
+  .section__tablet {
+    display: none;
+  }
+}
+p {
+  font-size: large;
+}
+
+footer {
+  height: 30px;
+  width: 100%;
+  background-color: #222;
+}
+footer h1 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=style.css.map */

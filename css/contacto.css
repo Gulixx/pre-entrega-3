@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100vw;
+  background-image: url(/img/beautiful-eye-anime-art-hd-wallpaper-uhdpaper.com-133@0@f.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: #333;
+}
+nav .nav__logo {
+  height: 70px;
+}
+
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.bg-image {
+  background-image: url(/img/tony-tony-chopper-chopper-crying.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=contacto.css.map */
